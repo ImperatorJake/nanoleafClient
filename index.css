@@ -60,4 +60,13 @@ input:checked + .slider:before {
   font-size: 18pt;
   font-weight: bold;
   margin: 20px;
+  color: yellow;
+}
+
+.page {
+  background-color: black;
+}
+
+.headerText {
+  color: yellow;
 }
