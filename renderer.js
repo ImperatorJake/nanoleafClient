@@ -16,6 +16,7 @@ function submitEffect() {
     // Set the current effect
     device.setEffect(effect).then(() => {
         currentEffect.innerHTML = effect;
+        effectError.innerHTML = '';
       }).catch((err) => {
         effectError.innerHTML = err+' Invalid Effect';
       });
